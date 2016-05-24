@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "rc2iis", "rc2iis\rc2iis.xproj", "{ECE5477D-28D2-47D5-9EA8-CE6147814E8C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebApplication1.lib", "lib\WebApplication1.lib\WebApplication1.lib.xproj", "{F65964DC-86BA-4955-91DA-6DFFC586ED1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{977A354A-02EB-4F41-B2EA-A12D07DAE6A9}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "nestedlib", "nestedlib\nestedlib\nestedlib.xproj", "{3BC2BCEA-ACE0-4FE2-8BDC-F1F966B3F9F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECE5477D-28D2-47D5-9EA8-CE6147814E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECE5477D-28D2-47D5-9EA8-CE6147814E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECE5477D-28D2-47D5-9EA8-CE6147814E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECE5477D-28D2-47D5-9EA8-CE6147814E8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F65964DC-86BA-4955-91DA-6DFFC586ED1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F65964DC-86BA-4955-91DA-6DFFC586ED1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F65964DC-86BA-4955-91DA-6DFFC586ED1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F65964DC-86BA-4955-91DA-6DFFC586ED1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BC2BCEA-ACE0-4FE2-8BDC-F1F966B3F9F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BC2BCEA-ACE0-4FE2-8BDC-F1F966B3F9F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BC2BCEA-ACE0-4FE2-8BDC-F1F966B3F9F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BC2BCEA-ACE0-4FE2-8BDC-F1F966B3F9F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
